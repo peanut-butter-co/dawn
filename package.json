@@ -1,0 +1,22 @@
+{
+  "name": "petra-mora-theme",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Peanut Butter Collective.",
+  "description": "Custom theme for Petra Mora.",
+  "keywords": [
+    "shopify",
+    "theme"
+  ],
+  "bugs": "https://github.com/peanut-butter-co/dawn/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peanut-butter-co/dawn"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {
+    "pull-settings": "shopify theme pull --nodelete -x 'assets/*' -x 'layout/*' -x 'locales/*' -x 'sections/*' -x 'snippets/*' -x 'templates/*.liquid' -x 'config/settings_schema.json'"
+  }
+}
