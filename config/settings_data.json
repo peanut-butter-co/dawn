@@ -1,5 +1,107 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#e22120",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/PetraMora",
+    "social_facebook_link": "https:\/\/twitter.com\/PetraMora",
+    "social_pinterest_link": "https:\/\/twitter.com\/PetraMora",
+    "social_instagram_link": "https:\/\/www.instagram.com\/petra_mora\/?hl=es",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCIHG41TUFjQbXNuyFwfAcsg",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Envíos gratís a partir de 100€",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/products\/roastbeef-de-ternera"
+            }
+          },
+          "d96aef70-9c24-4d7d-b53a-8f7a29664f36": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "This is another message",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0",
+          "d96aef70-9c24-4d7d-b53a-8f7a29664f36"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/65439738_2311728488880580_3632259082087301120_n.png",
+          "logo_width": 200,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "98ff2db6-2201-4dc5-bfcf-9599bb385dc9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/european-social-fund-logo-vector_2_f3a7b71f-42d6-4d28-a61d-6729553136f7.png",
+              "image_width": 200,
+              "alignment": "right"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "98ff2db6-2201-4dc5-bfcf-9599bb385dc9"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
     "Default": {
       "colors_solid_button_labels": "#FFFFFF",
@@ -24,7 +126,9 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
+          ],
+          "settings": {
+          }
         }
       }
     },
@@ -41,21 +145,25 @@
       "sections": {
         "footer": {
           "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
           "blocks": {
             "menu": {
-              "type": "link_list"
+              "type": "link_list",
+              "settings": {
+              }
             },
             "text": {
-              "type": "text"
+              "type": "text",
+              "settings": {
+              }
             }
           },
           "block_order": [
             "menu",
             "text"
-          ]
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
         }
       }
     }

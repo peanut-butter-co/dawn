@@ -15,12 +15,6 @@
           "settings": {
           }
         },
-        "9c6c6339-6bf1-4d58-abf6-2cc074cd2c47": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n<span class=\"variant-sku\">{{ current_variant.sku }}<\/span>"
-          }
-        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -92,7 +86,6 @@
       "block_order": [
         "vendor",
         "title",
-        "9c6c6339-6bf1-4d58-abf6-2cc074cd2c47",
         "subtitle",
         "price",
         "variant_picker",
@@ -169,7 +162,6 @@
     },
     "163839686577e8ba59": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1638396865dd47300e-0": {
           "type": "heading",
@@ -205,7 +197,6 @@
     },
     "16383969264bd2a717": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1638396926a90a414c-0": {
           "type": "heading",
@@ -242,7 +233,6 @@
     },
     "1638397039d98ad280": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "163839703974a6cc39-0": {
           "type": "heading",
